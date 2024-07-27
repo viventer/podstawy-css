@@ -1,0 +1,91 @@
+.bannersSection {
+  display: flex;
+  gap: 32px;
+  height: 500px;
+}
+
+.bannersSection h3 {
+  font-size: 36px;
+  font-weight: 400;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.bannersSection h3 > .bold {
+  font-size: 44px;
+}
+
+.bannersSectionLeftSide {
+  flex: 3;
+  display: flex;
+  gap: 32px;
+  flex-direction: column;
+}
+
+.bannersSectionOfferWrapper {
+  flex: 2;
+  background-image: url("../images/wiadro-baner1.webp"),
+    url("../images/wiadro-baner2.jpg"), url("../images/wiadro-baner3.png"),
+    url("../images/wiadro-baner4.webp");
+  background-size: 250px;
+  background-position: 0, 20%, 80%, 100%;
+  background-color: rgba(0, 134, 140);
+}
+
+.bannersSectionBlogPostWrapper {
+  flex: 1;
+  background-image: url("../images/wiadro-plastikowe.png"),
+    url("../images/wiadro-metalowe2.png"),
+    url("../images/wiadro-plastikowe1.png"),
+    url("../images/wiadro-plastikowe2.png");
+  background-size: 120px;
+  background-position: 0%, 12%, 24%, 36%, 48%;
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.bannersSectionBestsellersWrapper {
+  height: 100%;
+  background-image: url("../images/wiadro-bestseller.png");
+  background-size: 60%;
+  background-position: 90% 90%;
+  background-color: rgb(0, 138, 96);
+}
+
+.bannersSectionWrapper {
+  background-repeat: no-repeat;
+  border-radius: 8px;
+}
+
+.bannersSectionRightSide {
+  flex: 1;
+}
+
+.bannersSectionBanner {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.bannersSectionBanner button {
+  background-color: rgba(255, 255, 255, 0.15);
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.15);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4px);
+  color: white;
+  font-weight: 700;
+  font-size: 24px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: filter 0.15s ease-in-out;
+}
+
+.bannersSectionBanner button:hover {
+  filter: brightness(1.2);
+}
+
+.bannersSection .bannersSectionBlogPost {
+  flex: 1;
+}

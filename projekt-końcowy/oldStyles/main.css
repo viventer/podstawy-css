@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  color: white;
+  background-color: #1b2223;
+}
+
+img {
+  object-fit: contain;
+  width: 100px;
+  height: 100px;
+}
+
+a,
+button {
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  width: 90%;
+  max-width: 1500px;
+  margin: 0px auto 96px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.container > div:not(:last-of-type) {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  padding-bottom: 48px;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+.cardShadow {
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+}
+
+.logoContainer img {
+  width: 48px;
+  height: 48px;
+}
+
+.logoContainer h1,
+.logoContainer p {
+  font-size: 20px;
+}
+
+.logoContainer:hover h1,
+.logoContainer:hover p {
+  text-decoration: underline;
+}
+
+.logoContainer:active h1,
+.logoContainer:active p {
+  color: #b1fbe6;
+}
+
+.scaleHover {
+  transition: all 0.15s ease;
+}
+
+.scaleHover:hover {
+  transform: scale(110%) translateY(-5%);
+  filter: brightness(105%);
+}

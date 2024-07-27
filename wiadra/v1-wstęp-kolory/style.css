@@ -1,0 +1,25 @@
+body {
+  color: green;
+}
+
+a {
+  color: aqua;
+}
+
+#buttonLink {
+  color: black;
+}
+
+.listItemParagraph {
+  font-size: 18px;
+  color: lightgray;
+}
+
+.first {
+  background-color: navy;
+  color: red;
+}
+
+.link {
+  color: green;
+}

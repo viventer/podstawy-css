@@ -1,0 +1,43 @@
+.container {
+  padding: 32px;
+  background-color: gray;
+  color: white;
+  width: 90%;
+  margin: 64px auto;
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.container > div {
+  padding: 20px 40px;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.blue {
+  background-color: rgba(170, 238, 255, 0.75);
+}
+
+.pink {
+  background-color: rgba(255, 200, 255, 0.75);
+}
+
+.yellow {
+  background-color: rgba(255, 240, 200, 0.75);
+}
+
+div:nth-of-type(5) {
+  order: 1;
+}
+
+div:nth-of-type(1) {
+  order: 3;
+}
+
+div:nth-of-type(6) {
+  order: 2;
+}

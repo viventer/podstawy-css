@@ -1,0 +1,19 @@
+.container > ol > li {
+  color: red;
+}
+
+.container > h1 {
+  color: blue;
+}
+
+h1 ~ p {
+  color: green;
+}
+
+.container + p {
+  color: blue;
+}
+
+div > h1 + ol li {
+  background-color: yellow;
+}

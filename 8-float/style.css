@@ -1,0 +1,18 @@
+body {
+  border: 1px solid red;
+  display: flow-root;
+}
+
+img {
+  width: 100px;
+}
+
+.img1 {
+  float: left;
+  margin-right: 16px;
+}
+
+.img2 {
+  float: right;
+  margin-left: 16px;
+}

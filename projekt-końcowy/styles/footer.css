@@ -1,0 +1,28 @@
+.footerWrapper {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-top: 1px solid #b1fbe6;
+  padding: 32px 0;
+}
+
+.footer {
+  gap: 128px;
+  width: 90%;
+  max-width: 1500px;
+}
+
+.footerSection:first-of-type {
+  gap: 16px;
+}
+
+.footerSection:first-of-type > p:last-of-type {
+  color: #b1fbe6;
+}
+
+.footerSection ul {
+  gap: 12px;
+}
+
+.footerSection h4 {
+  border-bottom: 1px solid #09bc8a;
+  margin-bottom: 16px;
+}

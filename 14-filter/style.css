@@ -1,0 +1,50 @@
+button {
+  background-color: #007187;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 4px 16px;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.25);
+  display: block;
+}
+
+button:hover {
+  color: rgba(255, 255, 255, 0.9);
+  cursor: pointer;
+}
+
+button:active {
+  background-color: #006076;
+}
+
+input {
+  display: block;
+}
+
+a:not(.visible) {
+  display: inline;
+}
+
+button + a {
+  color: brown;
+}
+
+.container > :not(ol) {
+  text-decoration: line-through;
+}
+
+p:nth-of-type(2):hover {
+  color: green;
+}
+
+img {
+  filter: drop-shadow(3px 3px 3px black);
+  transition: filter 0.3s ease-in-out;
+  backdrop-filter: brightness(0.5);
+}
+
+img:hover {
+  filter: drop-shadow(3px 3px 3px black) brightness(0.5);
+}

@@ -1,0 +1,10 @@
+body {
+  background-image: url("sans.png");
+  height: 3000px;
+  background-repeat: no-repeat;
+  /* background-position: 250px 200px; */
+  background-attachment: local;
+  background-size: 100% 200px;
+  background-color: black;
+  background: black url("sans.png") no-repeat top center;
+}

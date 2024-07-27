@@ -1,0 +1,21 @@
+body {
+  height: 3000px;
+}
+
+.boxBlue {
+  background-color: #aef;
+  width: 150px;
+  height: 150px;
+  position: static;
+  left: 200px;
+  top: 200px;
+}
+
+.boxPink {
+  background-color: #fcf;
+  height: 75px;
+  width: 75px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}

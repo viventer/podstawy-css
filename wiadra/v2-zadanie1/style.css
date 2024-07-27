@@ -1,0 +1,26 @@
+body {
+  background-color: rgb(10, 10, 10);
+  color: white;
+  font-family: Ubuntu, Arial;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(121, 255, 224);
+}
+
+button {
+  background-color: rgb(44, 62, 78);
+}
+
+.buttonLink {
+  color: white;
+}
+
+.typesHeading {
+  color: rgb(121, 255, 224);
+}
+
+.listItemParagraph {
+  text-decoration: underline;
+}

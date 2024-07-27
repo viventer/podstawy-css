@@ -1,0 +1,87 @@
+.headerWrapper {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 8px 0;
+  border-bottom: 1px solid #b1fbe6;
+  margin-bottom: 64px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.header {
+  width: 90%;
+  max-width: 1500px;
+}
+
+.headerLeftSide {
+  gap: 128px;
+}
+
+.searchBar > input {
+  background-color: rgba(255, 255, 255, 0.35);
+  border-radius: 16px;
+  padding: 4px 32px 4px 16px;
+  border-left: 16px solid #004530;
+  width: 300px;
+}
+
+.searchBar {
+  position: relative;
+}
+
+.searchBarButton {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0);
+  width: 16px;
+  height: 16px;
+}
+
+.searchBarButton:hover {
+  filter: brightness(0.75);
+}
+
+.searchBarButton > img {
+  width: 100%;
+  height: 100%;
+}
+
+.navBar {
+  gap: 32px;
+  margin-right: 128px;
+}
+
+.navBar li {
+  border-right: 1px solid white;
+  padding-right: 32px;
+  transition: all 0.05s ease-in-out;
+}
+
+.navBar li:last-of-type {
+  border-right: none;
+  padding-right: 0;
+}
+
+.headerRightSide {
+  gap: 16px;
+}
+
+.headerRightSide > button {
+  background-color: #004530;
+  padding: 8px 16px;
+  border-radius: 16px;
+  gap: 8px;
+}
+
+.headerRightSide > button:last-of-type {
+  background-color: #004346;
+}
+
+.headerRightSide img {
+  width: 16px;
+  height: 16px;
+}

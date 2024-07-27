@@ -1,0 +1,123 @@
+.headerWrapper {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 8px 0;
+  border-bottom: 1px solid #b1fbe6;
+  margin-bottom: 64px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 1500px;
+}
+
+.header > div {
+  display: flex;
+  align-items: center;
+}
+
+.headerLeftSide {
+  gap: 128px;
+}
+
+.searchBar > input {
+  background-color: rgba(255, 255, 255, 0.35);
+  border-radius: 16px;
+  padding: 4px 32px 4px 16px;
+  border-left: 16px solid #004530;
+  width: 300px;
+}
+
+.searchBar {
+  position: relative;
+}
+
+.searchBarButton {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0);
+  width: 16px;
+  height: 16px;
+  transition: filter 0.15s ease-in-out;
+}
+
+.searchBarButton:hover {
+  filter: brightness(0.75);
+}
+
+.searchBarButton > img {
+  width: 100%;
+  height: 100%;
+}
+
+.navBar {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  list-style: none;
+  margin-right: 128px;
+}
+
+.navBar li {
+  border-right: 1px solid white;
+  padding-right: 32px;
+  transition: all 0.05s ease-in-out;
+}
+
+.navBar li:last-of-type {
+  border-right: none;
+  padding-right: 0;
+}
+
+.navBar li:hover {
+  text-decoration: underline;
+}
+
+.navBar li:active {
+  color: #b1fbe6;
+}
+
+.navBar li:active a {
+  color: #b1fbe6;
+}
+
+.headerRightSide {
+  gap: 16px;
+}
+
+.headerRightSide > button {
+  background-color: #004530;
+  font-size: 16px;
+  padding: 8px 16px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.headerRightSide > button:last-of-type {
+  background-color: #004346;
+}
+
+.headerRightSide > button:hover {
+  filter: brightness(1.25);
+}
+
+.headerRightSide > button:active {
+  filter: brightness(1.5);
+}
+
+.headerRightSide img {
+  width: 16px;
+  height: 16px;
+}

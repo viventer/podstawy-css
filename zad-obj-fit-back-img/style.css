@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #222;
+  color: white;
+  font-family: Arial;
+}
+
+.hero {
+  background-image: url("images/pan-z-kluczem.png"),
+    linear-gradient(to right, black, #267);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 400px;
+  box-shadow: 0 5px 20px 3px rgba(255, 255, 255, 0.2);
+}
+
+.heroText {
+  padding: 150px 300px;
+  white-space: nowrap;
+  text-shadow: 3px 3px 5px black;
+}
+
+.heroSubheading {
+  color: #aef;
+}
+
+.section {
+  margin: 50px 25px;
+}
+
+h2 {
+  border-bottom: 2px solid #aef;
+  padding-bottom: 2px;
+  margin-bottom: 16px;
+}
+
+li {
+  margin-left: 20px;
+  margin-bottom: 8px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  object-fit: contain;
+  box-shadow: 0 0 20px 3px rgba(255, 255, 255, 0.1);
+  margin-bottom: 16px;
+}

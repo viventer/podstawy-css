@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+.first {
+  background-color: #aef;
+  width: 100px;
+  height: 100px;
+  /* padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px; */
+  padding: 30px;
+  /* border-style: dashed;
+  border-width: 10px;
+  border-color: #59d;
+  border-top-width: 0px;
+  border-bottom-style: dotted; */
+  border: 5px dotted navy;
+  border-radius: 1000px;
+  margin: 50px;
+}
+
+.second {
+  background-color: #fcf;
+  margin-top: 200px;
+}

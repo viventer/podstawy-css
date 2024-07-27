@@ -1,0 +1,23 @@
+body {
+  display: flow-root;
+}
+
+div {
+  border: 1px solid red;
+  height: 200px;
+  overflow: auto;
+}
+
+img {
+  width: 100px;
+}
+
+.img1 {
+  float: left;
+  margin-right: 16px;
+}
+
+.img2 {
+  float: right;
+  margin-left: 16px;
+}

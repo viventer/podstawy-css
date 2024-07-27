@@ -1,0 +1,6 @@
+- czcionka: #FFFFFF
+- tło: #1B2223
+- podstawowy: #004346
+- dodatkowy: #004530
+- akcentowy: #09BC8A
+  - jaśniejszy odcień: #b1fbe6;

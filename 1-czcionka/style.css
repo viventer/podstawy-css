@@ -1,0 +1,15 @@
+body {
+  background-color: #000;
+  color: #fff;
+  font-size: 32px;
+  font-weight: 400;
+  font-style: normal;
+  /* text-decoration-line: line-through;
+  text-decoration-color: aqua;
+  text-decoration-style: dashed;
+  text-decoration-thickness: 8px; */
+  text-decoration: line-through aqua dashed 8px;
+  font-family: "Ubuntu", Arial, sans-serif;
+  text-align: justify;
+  white-space: nowrap;
+}

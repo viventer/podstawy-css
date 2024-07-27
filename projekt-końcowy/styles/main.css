@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+a,
+button,
+input,
+p,
+body {
+  color: white;
+  font-size: 16px;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  background-color: #1b2223;
+}
+
+img {
+  object-fit: contain;
+  width: 100px;
+  height: 100px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 90%;
+  max-width: 1500px;
+  margin: 0px auto 96px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.container > div:not(:last-of-type) {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  padding-bottom: 48px;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+.cardShadow {
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.logoContainer img {
+  width: 48px;
+  height: 48px;
+}
+
+.logoContainer h1,
+.logoContainer p {
+  font-size: 20px;
+}
+
+.logoContainer:hover h1,
+.logoContainer:hover p {
+  text-decoration: underline;
+}
+
+.logoContainer:active h1,
+.logoContainer:active p {
+  color: #b1fbe6;
+}
+
+.scaleHover {
+  transition: all 0.15s ease;
+}
+
+.scaleHover:hover {
+  transform: scale(110%) translateY(-5%);
+  filter: brightness(105%);
+}
+
+a:not(.buttonLink):hover {
+  text-decoration: underline;
+}
+
+a:not(.buttonLink):active {
+  color: #b1fbe6;
+}
+
+.headerButton:hover,
+.bannerButton:hover {
+  filter: brightness(1.25);
+}
+
+.headerButton:active,
+.bannerButton:active {
+  filter: brightness(1.5);
+}
+
+button {
+  transition: filter 0.15s ease-in-out;
+}
+
+button,
+input {
+  border-radius: 8px;
+}
+
+ul {
+  list-style: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.alignCenter {
+  align-items: center;
+}
+
+.justifyCenter {
+  justify-content: center;
+}
+
+.flexColumn {
+  flex-direction: column;
+}
+
+.spaceBetween {
+  justify-content: space-between;
+}

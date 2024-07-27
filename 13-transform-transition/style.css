@@ -1,0 +1,53 @@
+button {
+  background-color: #007187;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 4px 16px;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.25);
+  display: block;
+}
+
+button:hover {
+  color: rgba(255, 255, 255, 0.9);
+  cursor: pointer;
+}
+
+button:active {
+  background-color: #006076;
+}
+
+input {
+  display: block;
+}
+
+a:not(.visible) {
+  display: inline;
+}
+
+button + a {
+  color: brown;
+}
+
+.container > :not(ol) {
+  text-decoration: line-through;
+}
+
+p:nth-of-type(2):hover {
+  color: green;
+}
+
+img {
+  margin: 50px;
+  transition: all 0.5s ease-in-out 2s, background-color 0.15s linear;
+}
+
+img:hover {
+  transform: scale(2) rotate(180deg);
+}
+
+img:active {
+  background-color: black;
+}

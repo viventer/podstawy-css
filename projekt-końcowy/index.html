@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>twoje-wiadro.pl</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="oldStyles/main.css" />
+    <link rel="stylesheet" href="oldStyles/categoriesSection.css" />
+    <link rel="stylesheet" href="oldStyles/bannersSection.css" />
+    <link rel="stylesheet" href="oldStyles/footer.css" />
+    <link rel="stylesheet" href="oldStyles/productCardsSection.css" />
+    <link rel="stylesheet" href="oldStyles/header.css" />
+  </head>
+  <body>
+    <div class="headerWrapper">
+      <div class="header">
+        <div class="headerLeftSide">
+          <button class="logoContainer">
+            <img src="images/logo.png" alt="logo sklepu" />
+            <a href="#">
+              <h1>twoje-wiadro.pl</h1>
+            </a>
+          </button>
+          <div class="searchBar">
+            <input type="text" />
+            <button class="searchBarButton">
+              <img src="images/search.svg" alt="lupa" />
+            </button>
+          </div>
+        </div>
+        <div class="headerRightSide">
+          <ul class="navBar">
+            <li>
+              <a href="#">Dlaczego my?</a>
+            </li>
+            <li>
+              <a href="#">Pomoc</a>
+            </li>
+            <li>
+              <a href="#">Blog</a>
+            </li>
+          </ul>
+          <button class="headerButton">
+            <img src="images/heart.svg" alt="serce" />
+            <a href="#" class="buttonLink">Ulubione</a>
+          </button>
+          <button class="headerButton">
+            <img src="images/shopping-cart.svg" alt="koszyk zakupowy" />
+            <a href="#" class="buttonLink">Koszyk</a>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="categoriesSection">
+        <button class="scaleHover cardShadow">
+          <img src="images/wiadro-ocynkowane.png" alt="ocynkowane wiadro" />
+          <p>Metalowe</p>
+        </button>
+        <button class="scaleHover cardShadow">
+          <img src="images/wiadro-plastikowe.png" alt="plastikowe wiadro" />
+          <p>Plastikowe</p>
+        </button>
+        <button class="scaleHover cardShadow">
+          <img src="images/wiadro-malarskie.png" alt="wiadro malarskie" />
+          <p>Malarskie</p>
+        </button>
+        <button class="scaleHover cardShadow">
+          <img src="images/wiadro-glazurnicze.png" alt="wiadro glazurnicze" />
+          <p>Glazurnicze</p>
+        </button>
+        <button class="scaleHover cardShadow">
+          <img
+            src="images/wiadro-z-wyciskaczem.png"
+            alt="Wiadro do mycia podłóg z wyciskaczem"
+          />
+          <p>Do mycia podłóg</p>
+        </button>
+        <button class="scaleHover cardShadow">
+          <img
+            src="images/wiadro-gastronomiczne.png"
+            alt="Wiadro gastronomiczne z miarką"
+          />
+          <p>Gastronomiczne</p>
+        </button>
+      </div>
+      <div class="bannersSection">
+        <div class="bannersSectionLeftSide">
+          <div class="bannersSectionOfferWrapper bannersSectionWrapper">
+            <div class="bannersSectionBanner">
+              <h3>
+                Wiadro na <span class="line-through">lato</span> lata, nawet
+                <span class="bold">50% TANIEJ</span>
+              </h3>
+              <button class="bannerButton">Sprawdź teraz</button>
+            </div>
+          </div>
+          <div class="bannersSectionWrapper bannersSectionBlogPostWrapper">
+            <div class="bannersSectionBanner">
+              <h3>Jakie wiadro wybrać?</h3>
+              <button class="bannerButton">Przeczytaj post</button>
+            </div>
+          </div>
+        </div>
+        <div class="bannersSectionRightSide">
+          <div class="bannersSectionBestsellersWrapper bannersSectionWrapper">
+            <div class="bannersSectionBanner">
+              <h3>Bestsellery</h3>
+              <button class="bannerButton">Przeglądaj produkty</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="recommendedSection">
+        <div class="sectionHeading">
+          <h2>Polecane wiadra</h2>
+          <p>Najlepsze wiadra według naszych testów i opinii użytkowników.</p>
+        </div>
+        <div class="sectionProductCards">
+          <button class="productCard scaleHover cardShadow">
+            <img src="images/wiadro-card1.jpg" alt="wiadro na farbę" />
+            <div class="productCardVolume">
+              <p>20L</p>
+            </div>
+            <p>Wiadro na farbę WiadroTech</p>
+            <div class="productCardBottom">
+              <p>43,99 zł</p>
+              <img src="images/4-stars.png" alt="four stars" />
+            </div>
+          </button>
+          <button class="productCard scaleHover cardShadow">
+            <img src="images/wiadro-card2.png" alt="wiadro ocynkowane" />
+            <div class="productCardVolume">
+              <p>16L</p>
+            </div>
+            <p>Wiadro ocynkowane</p>
+            <div class="productCardBottom">
+              <p>25,79 zł</p>
+              <img src="images/5-stars.png" alt="five stars" />
+            </div>
+          </button>
+          <button class="productCard scaleHover cardShadow">
+            <img src="images/wiadro-card3.jpg" alt="wiadro z wyciskaczem" />
+            <div class="productCardVolume">
+              <p>25L</p>
+            </div>
+            <p>Wiadro z wyciskaczem "Gosia"</p>
+            <div class="productCardBottom">
+              <p>39,99 zł</p>
+              <img src="images/5-stars.png" alt="five stars" />
+            </div>
+          </button>
+          <button class="productCard scaleHover cardShadow">
+            <img src="images/wiadro-card4.webp" alt="plastikowe wiadro" />
+            <div class="productCardVolume">
+              <p>15L</p>
+            </div>
+            <p>Plastikowe wiadro Plafor</p>
+            <div class="productCardBottom">
+              <p>20,49 zł</p>
+              <img src="images/4-stars.png" alt="four stars" />
+            </div>
+          </button>
+          <button class="productCard scaleHover cardShadow">
+            <img src="images/wiadro-card10.png" alt="wiadro budowlane" />
+            <div class="productCardVolume">
+              <p>20L</p>
+            </div>
+            <p>Wiadro budowlane</p>
+            <div class="productCardBottom">
+              <p>19,99 zł</p>
+              <img src="images/5-stars.png" alt="five stars" />
+            </div>
+          </button>
+        </div>
+      </div>
+      <div class="forYouSection">
+        <div class="sectionHeading">
+          <h2>Wybrane dla Ciebie</h2>
+          <p>Produkty wybrane na podstawie twoich wyszukiwań.</p>
+        </div>
+        <div class="sectionProductCards">
+          <button class="productCard scaleHover cardShadow">
+            <img src="images/wiadro-card5.webp" alt="wiadro budowlane" />
+            <div class="productCardVolume">
+              <p>12L</p>
+            </div>
+            <p>Wiadro budowlane udźwig 25kg</p>
+            <div class="productCardBottom">
+              <p>50,99 zł</p>
+              <img src="images/2-stars.png" alt="five stars" />
+            </div>
+          </button>
+          <button class="productCard scaleHover cardShadow">
+            <img src="images/wiadro-card6.avif" alt="wiadro budowlane" />
+            <div class="productCardVolume">
+              <p>12L</p>
+            </div>
+            <p>Wiadro budowlane</p>
+            <div class="productCardBottom">
+              <p>12,89 zł</p>
+              <img src="images/5-stars.png" alt="five stars" />
+            </div>
+          </button>
+          <button class="productCard scaleHover cardShadow">
+            <img src="images/wiadro-card7.png" alt="wiadro do sauny" />
+            <div class="productCardVolume">
+              <p>16L</p>
+            </div>
+            <p>Wiadro do sauny</p>
+            <div class="productCardBottom">
+              <p>289,99 zł</p>
+              <img src="images/4-stars.png" alt="five stars" />
+            </div>
+          </button>
+          <button class="productCard scaleHover cardShadow">
+            <img src="images/wiadro-card8.jpeg" alt="wiadro do sauny" />
+            <div class="productCardVolume">
+              <p>10L</p>
+            </div>
+            <p>Wiadro do sauny Ceber</p>
+            <div class="productCardBottom">
+              <p>499,00 zł</p>
+              <img src="images/5-stars.png" alt="five stars" />
+            </div>
+          </button>
+          <button class="productCard scaleHover cardShadow">
+            <img
+              src="images/wiadro-card9.jpeg"
+              alt="wiadro do sauny z pokrywą"
+            />
+            <div class="productCardVolume">
+              <p>25L</p>
+            </div>
+            <p>Dębowe wiadro do sauny z pokrywą</p>
+            <div class="productCardBottom">
+              <p>579,99 zł</p>
+              <img src="images/3-stars.png" alt="five stars" />
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="footerWrapper">
+      <div class="footer">
+        <div class="footerSection">
+          <button class="logoContainer">
+            <img src="images/logo.png" alt="logo sklepu" />
+            <p>twoje-wiadro.pl</p>
+          </button>
+          <p class="address">14-140 Warszawa, ul. Kubłowa 53</p>
+          <p>twoje-wiadro.pl &copy; 2024</p>
+        </div>
+        <div class="footerSection">
+          <h4>MENU GŁÓWNE</h4>
+          <ul class="footerSectionLinks">
+            <li>
+              <a href="#">Dlaczego my?</a>
+            </li>
+            <li>
+              <a href="#">Pomoc</a>
+            </li>
+            <li>
+              <a href="#">Blog</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footerSection">
+          <h4>NASZA FIRMA</h4>
+          <ul class="footerSectionLinks">
+            <li>
+              <a href="#">O firmie</a>
+            </li>
+            <li>
+              <a href="#">Oferty pracy</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footerSection">
+          <h4>MEDIA SPOŁECZNOŚCIOWE</h4>
+          <ul class="footerSectionLinks">
+            <li>
+              <a href="#">Facebook</a>
+            </li>
+            <li>
+              <a href="#">X / Twitter</a>
+            </li>
+            <li>
+              <a href="#">Instagram</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
